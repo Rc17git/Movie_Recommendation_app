@@ -46,11 +46,11 @@ def index():
         # Call the function to generate the list based on selected movies
         x=get_recommendations(selected_movie1, cosine_sim2)
         y=get_recommendations(selected_movie1, cosine_sim)
-        U1 = x.append(y)
+        U1 = list(x) + list(y)
         U1=list(set(U1))
         x2=get_recommendations(selected_movie2, cosine_sim2)
         y2=get_recommendations(selected_movie2, cosine_sim)
-        U2=x2.append(y2)
+        U2=U2 = list(x2) + list(y2)
         U2=list(set(U2))
         result1 = "<br>".join(U1)
         result2 = "<br>".join(U2)
@@ -65,4 +65,4 @@ def index():
     )
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
