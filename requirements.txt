@@ -103,7 +103,8 @@ pandocfilters==1.5.0
 parso==0.8.3
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==10.0.1
+Pillow==9.5.0
+platformdirs==3.11.0
 prometheus-client==0.14.1
 prompt-toolkit==3.0.39
 protobuf==4.23.2
@@ -134,8 +135,8 @@ rich==13.5.3
 rpds-py==0.10.4
 rsa==4.9
 scikit-learn==1.0.2
-scipy==1.10.0
-Send2Trash==1.8.0
+scipy==1.8.0
+Send2Trash==1.8.2
 six==1.16.0
 sklearn==0.0
 smmap==5.0.1
