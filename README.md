@@ -30,6 +30,18 @@ Welcome to the Movie Recommendation App! This application utilizes content-based
    ```bash
    python app.py
 
+## Screenshots
+
+This is how the website should look once you have set up everything correctly.
+
+![Landing Page](home.png)
+
+*Caption: This is the landing page*
+
+![Results Page](results.png)
+
+*Caption: This is the results page*
+
 ### Contributing
 
 If you'd like to contribute to this project, please follow the standard GitHub fork and pull request workflow.
